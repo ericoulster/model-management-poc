@@ -55,3 +55,6 @@ def branch_set_up(company_name, product):
 
 # This function was used to create the 'Computech_ProductZ' branch. 
 # You may either call the above function below, or import into another .py/ipynb file to run.
+
+if __name__ == "__main__":
+    branch_set_up(input("Select Company Name:"), input("Select Product"))
