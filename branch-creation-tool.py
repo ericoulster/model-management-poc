@@ -57,4 +57,4 @@ def branch_set_up(company_name, product):
 # You may either call the above function below, or import into another .py/ipynb file to run.
 
 if __name__ == "__main__":
-    branch_set_up(input("Select Company Name:"), input("Select Product"))
+    branch_set_up(input("Select Company Name:"), input("Select Product:"))
