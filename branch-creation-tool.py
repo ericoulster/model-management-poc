@@ -53,4 +53,5 @@ def branch_set_up(company_name, product):
         for j in contents:
             repo.delete_file(j.path, f"removed {j.path}", branch=branch_name, sha=j.sha)
 
-# This function was used to create the 'Computech_ProductZ' branch. You may either call it below, or import into another .py file to run.
+# This function was used to create the 'Computech_ProductZ' branch. 
+# You may either call the above function below, or import into another .py/ipynb file to run.
